@@ -1,0 +1,93 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.tema {
+    background-image: url(imagens/folhass.svg);
+    margin: -10px;
+    z-index: 500;
+}
+
+.pre-loader {
+    width: 100%;
+    height: 100vh;
+}
+
+.menu {
+    height: 80px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: inline-flex;
+    background-color: rgba(72, 95, 28, 0.507);
+}
+
+.menu a {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+    color: rgb(14, 56, 14);
+    text-decoration: none;
+    text-align: center;
+    margin: 30px 0px;
+    display: inline-block;
+    width: 100%;
+    height: 80px;
+}
+
+#nome-casal {
+    color: rgba(72, 95, 28, 0.507);
+    font-family: 'Montez', cursive;
+    font-size: 150px;
+    text-align: center;
+    margin-top: -550px;
+    z-index: 700;
+}
+
+
+/*utilitárias*/
+
+.full-height {
+    height: 100%;
+    width: 100%;
+}
+
+.button {
+    margin: 0 auto;
+    display: table;
+    font-family: 'Noto Sans', sans-serif;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    position: relative;
+    cursor: pointer;
+}
+
+.button-small {
+    height: 28px;
+    line-height: 28px;
+    padding: 0 20px;
+    border-radius: 14px;
+    font-size: 12px;
+}
+
+.button-medium {
+    height: 38px;
+    line-height: 38px;
+    padding: 0 27px;
+    border-radius: 19px;
+    font-size: 14px;
+}
+
+.button-principal {
+    color: rgb(230, 228, 223);
+    background-color: rgb(14, 56, 14);
+}
+
+.mg-top-30 {
+    margin-top: 30px;
+}
+
+.mg-bot-30 {
+    margin-bottom: 30px;
+}
