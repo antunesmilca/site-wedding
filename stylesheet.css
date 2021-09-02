@@ -1,128 +1,135 @@
-* {
-    box-sizing: border-box;
-}
-
-body {
-    background-color: rgb(255, 255, 255);
-    font-family: 'Noto Sans', sans-serif;
-}
-
-.home {
-    margin: 0;
-    padding: 0;
-}
-
-.tema {
-    background-image: url(imagens/folhass.svg);
-    margin: -100px -10px 0;
-    z-index: 500;
-}
-
-.intro {
-    width: 100%;
-    height: 100vh;
-}
-
-#nome-casal {
-    color: rgba(72, 95, 28, 0.507);
-    font-family: 'Montez', cursive;
-    font-size: 150px;
-    text-align: center;
-    margin-top: -550px;
-    z-index: 700;
-}
-
-.menu {
-    height: 80px;
-    width: 100%;
-    top: 0;
-    left: 0;
-    position: fixed;
-    background-color: rgba(72, 95, 28, 0.507);
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-li {
-    float: right;
-}
-
-li a {
-    top: 0;
-    left: 0;
-    display: block;
-    color: rgb(14, 56, 14);
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 20px;
-    text-align: center;
-    margin-top: 14px;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover {
-    color: rgb(255, 255, 255);
-}
-
-#welcome {
-    margin-top: 100px;
-    text-align: center;
-}
-
-
-/*utilitárias*/
-
-.full-height {
-    height: 100%;
-    width: 100%;
-}
-
-.button {
-    margin: 0 auto;
-    display: table;
-    font-family: 'Noto Sans', sans-serif;
-    border: none;
-    text-align: center;
-    text-transform: uppercase;
-    text-decoration: none;
-    position: relative;
-    cursor: pointer;
-}
-
-.button-small {
-    height: 28px;
-    line-height: 28px;
-    padding: 0 20px;
-    border-radius: 14px;
-    font-size: 12px;
-}
-
-.button-medium {
-    height: 38px;
-    line-height: 38px;
-    padding: 0 27px;
-    border-radius: 19px;
-    font-size: 14px;
-}
-
-.button-principal {
-    color: rgb(230, 228, 223);
-    background-color: rgb(14, 56, 14);
-}
-
-.mg-top-30 {
-    margin-top: 30px;
-}
-
-.mg-bot-30 {
-    margin-bottom: 30px;
-}
-
-margin-bottom: 30px;
-
-}
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        background-color: #F5F5F5;
+        font-family: 'Noto Sans', sans-serif;
+    }
+    
+    .tema {
+        margin: -100px -10px 0;
+        z-index: 500;
+    }
+    
+    #nome-casal {
+        color: rgba(72, 95, 28, 0.507);
+        font-family: 'Montez', cursive;
+        font-size: 150px;
+        text-align: center;
+        margin-top: -550px;
+        z-index: 700;
+    }
+    
+    .top-bar {
+        width: 100%;
+        height: 80px;
+        color: #F5F5F5;
+        background-color: #859F81;
+    }
+    
+    ul a {
+        color: #F5F5F5;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    
+    ul a:hover {
+        color: #325449;
+    }
+    
+    .navbar-brand {
+        color: #F5F5F5;
+        font-family: 'Montez', cursive;
+        font-size: 40px;
+    }
+    
+    .row {
+        height: 100vh;
+    }
+    
+    .foto-casal {
+        width: 100%;
+        height: 500px;
+        background-color: royalblue;
+    }
+    
+    .heart {
+        height: 50px;
+        color: #859F81;
+        display: block;
+        margin: auto;
+    }
+    
+    #welcome h1 {
+        font-family: 'Montez', cursive;
+        font-size: 55px;
+        color: #859F81;
+    }
+    
+    #welcome p {
+        font-size: 20px;
+        font-family: 'Noto Sans', sans-serif;
+    }
+    /*PÁGINA INICIAL*/
+    
+    #foto-casal {
+        width: 500px;
+        height: 500px;
+        background-color: red;
+    }
+    
+    #info {
+        width: 500px;
+        height: 500px;
+        background-color: blue;
+    }
+    /*utilitárias*/
+    
+    .full-height {
+        height: 100%;
+        width: 100%;
+    }
+    
+    .button {
+        margin: 0 auto;
+        display: table;
+        font-family: 'Noto Sans', sans-serif;
+        border: none;
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: none;
+        position: relative;
+        cursor: pointer;
+    }
+    
+    .button-small {
+        height: 28px;
+        line-height: 28px;
+        padding: 0 20px;
+        border-radius: 14px;
+        font-size: 12px;
+    }
+    
+    .button-medium {
+        height: 38px;
+        line-height: 38px;
+        padding: 0 27px;
+        border-radius: 19px;
+        font-size: 14px;
+    }
+    
+    .button-principal {
+        color: rgb(230, 228, 223);
+        background-color: rgb(14, 56, 14);
+    }
+    
+    .mg-top-30 {
+        margin-top: 30px;
+    }
+    
+    .mg-bot-30 {
+        margin-bottom: 30px;
+    }

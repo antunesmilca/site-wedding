@@ -3,37 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montez&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../stylesheet.css">
-    <title>Samuel e Milca</title>
+    <title>Casamento Samuel e Milca</title>
 </head>
 
-<body class="home">
-    <div>
-        <header>
-            <ul class="menu">
-                <li><a href="#">CONFIRMAR PRESENÇA</a></li>
-                <li><a href="">LISTA DE PRESENTES</a></li>
-                <li><a href="">NOSSA HISTÓRIA</a></li>
-                <li><a href="">PÁGINA INICIAL</a></li>
-            </ul>
-        </header>
+<body>
+    <div class="container-fluid p-0">
+        <div class="row">
+            <div class="col-sm-12">
+                <header class="top-bar">
+                    <nav class="navbar navbar-expand-lg fixed-top">
+                        <p class="navbar-brand">S & M</p>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-end">
+                            <ul class="navbar-nav">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">HOME <span class="sr-only">(Página atual)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">LISTA DE PRESENTES</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">CONFIRMAR PRESENÇA</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </header>
+            </div>
+
+
+            <div class="col-sm-6">
+                <div class="foto-casal">
+                    <img src="" alt="">
+                </div>
+            </div>
+
+            <div class="col-sm-6" id="welcome">
+                <h1>Sejam bem vindos! </h1>
+                <p>Estamos muito felizes por compartilhar esse momento com vocês!</p>
+                <p>Contamos com a sua presença para que nosso dia seja ainda mais especial!</p>
+                <img class="heart" src="../imagens/heart.svg" alt="">
+                <p>Contagem regressiva para o grande dia:</p>
+            </div>
+
+        </div>
     </div>
 
-    <div id="welcome">
-        <p>Sejam bem vindos ao nosso site de casamento!</p>
-        <p>Aqui você poderá conhecer detalhes da nossa jornada juntos, ver fotos de nossos momentos especiais, confirmar sua presença e também nos presentear!</p>
-    </div>
-
-    <div class="containeir-img" id="foto-casal">
-    </div>
-
-    <div id="countdown">
-        <p>Contagem regressiva para o casamento</p>
-        <div id="timer"></div>
-    </div>
 </body>
 
 </html>
