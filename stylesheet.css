@@ -4,6 +4,7 @@
 }
 
 body {
+    color: #325449;
     background-color: #F5F5F5;
 }
 
@@ -43,9 +44,35 @@ body {
         height: 100%;
         background-color: salmon;
     }
+    #foto {
+        height: 70%;
+        margin-top: 165px;
+        margin-left: 200px;
+        background-color: sandybrown;
+        vertical-align: middle;
+    }
     #welcome {
         height: 100%;
         background-color: rgb(238, 31, 8);
+    }
+    ion-icon {
+        color: #859F81;
+        font-size: 45px;
+        margin: 0 45%;
+    }
+    .retangulo {
+        width: 95px;
+        height: 95px;
+        background-color: #859F81;
+        font-family: Noto Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 34px;
+        margin: 30px;
+        text-align: center;
+        position: relative;
+        flex-direction: column-reverse;
     }
     #fotolocal {
         height: 100%;
@@ -70,41 +97,7 @@ body {
 
 @media screen and (min-width: 768px) {}
 
-@media screen and (min-width: 992px) {
-    /*INTRODUÇÃO*/
-    .tema {
-        background-image: url(imagens/folhass.svg);
-        margin: -10px;
-        z-index: 500;
-    }
-    .intro {
-        width: 100%;
-        height: 100vh;
-    }
-    #nome-casal {
-        color: rgba(72, 95, 28, 0.507);
-        font-family: 'Montez', cursive;
-        font-size: 150px;
-        text-align: center;
-        margin-top: -550px;
-        z-index: 700;
-    }
-    /*PAGINA INICIAL*/
-    nav {
-        width: 100%;
-        height: 80px;
-        color: #F5F5F5;
-        background-color: #859F81;
-    }
-    #fotocasal {
-        height: 100%;
-        background-color: salmon;
-    }
-    #welcome {
-        height: 100%;
-        background-color: rgb(238, 31, 8);
-    }
-}
+@media screen and (min-width: 992px) {}
 
 @media screen and (min-width: 1364px) {}
 
